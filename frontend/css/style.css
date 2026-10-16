@@ -1,0 +1,39 @@
+/* Your custom styles go here.
+   Use Bootstrap classes first, and write your own CSS only when you need to. */
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+#summary-cards .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+#expenses-table-body tr:hover {
+  background-color: #f1f3f5;
+}
+
+.container.mt-4{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
